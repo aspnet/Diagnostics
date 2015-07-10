@@ -3,7 +3,7 @@
     "exclude": "wwwroot/**/*.*",
     "dependencies": {
         "Microsoft.AspNet.Diagnostics": "",
-        "Microsoft.AspNet.Server.IIS": "1.0.0-*"
+        "Microsoft.AspNet.Server.IIS": "1.0.0-beta5"
     },
     "frameworks" : {
         "dnx451" : { },

@@ -1,8 +1,8 @@
 {
   "dependencies": {
     "Microsoft.AspNet.Diagnostics": "",
-    "Microsoft.AspNet.Server.WebListener": "1.0.0-*",
-    "Microsoft.AspNet.Server.IIS": "1.0.0-*"
+    "Microsoft.AspNet.Server.WebListener": "1.0.0-beta5",
+    "Microsoft.AspNet.Server.IIS": "1.0.0-beta5"
   },
   "commands": { "web": "Microsoft.AspNet.Hosting server=Microsoft.AspNet.Server.WebListener server.urls=http://localhost:5001" },
   "frameworks": {
