@@ -1,16 +1,18 @@
 {
-	"version": "1.0.0-*",
-	"description": "ASP.NET 5 diagnostics middleware abstractions.",
-	"repository": {
+    "version": "1.0.0-beta6",
+    "description": "ASP.NET 5 diagnostics middleware abstractions.",
+    "repository": {
         "type": "git",
         "url": "git://github.com/aspnet/diagnostics"
     },
-	"compilationOptions": { "warningsAsErrors": true },
-	 "frameworks": {
-        "dnx451": { },
+    "compilationOptions": {
+        "warningsAsErrors": true
+    },
+    "frameworks": {
+        "dnx451": {},
         "dnxcore50": {
             "dependencies": {
-                "System.Runtime": "4.0.20-beta-*"
+                "System.Runtime": "4.0.20-beta-23109"
             }
         }
     }
