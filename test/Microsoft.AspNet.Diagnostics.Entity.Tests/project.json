@@ -1,15 +1,18 @@
 {
     "dependencies": {
-        "EntityFramework.InMemory": "7.0.0-*",
-        "Microsoft.AspNet.Diagnostics.Entity": "7.0.0-*", 
+        "EntityFramework.InMemory": "7.0.0-beta7",
+        "Microsoft.AspNet.Diagnostics.Entity": "7.0.0-beta7",
         "Moq": "4.2.1312.1622",
-        "xunit.runner.aspnet": "2.0.0-aspnet-*"
+        "xunit.runner.aspnet": "2.0.0-aspnet-beta7"
     },
-    "compile": [ "..\\Shared\\ApiConsistencyTestBase.cs", "..\\Shared\\TestHelpers.cs" ],
+    "compile": [
+        "..\\Shared\\ApiConsistencyTestBase.cs",
+        "..\\Shared\\TestHelpers.cs"
+    ],
     "commands": {
         "test": "xunit.runner.aspnet"
     },
     "frameworks": {
-        "dnx451": { }
+        "dnx451": {}
     }
 }
