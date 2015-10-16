@@ -1,6 +1,6 @@
 {
-    "version": "7.0.0-*",
-    "description":  "ASP.NET 5 Middleware for Entity Framework error pages.",
+    "version": "7.0.0-beta8",
+    "description": "ASP.NET 5 Middleware for Entity Framework error pages.",
     "repository": {
         "type": "git",
         "url": "git://github.com/aspnet/diagnostics"
@@ -9,10 +9,12 @@
         "warningsAsErrors": true
     },
     "dependencies": {
-        "Microsoft.AspNet.Diagnostics": "1.0.0-*",
-        "EntityFramework.Relational": "7.0.0-*"
+        "Microsoft.AspNet.Diagnostics": "1.0.0-beta8",
+        "EntityFramework.Relational": "7.0.0-beta8"
     },
-    "compile": [ "..\\Shared\\*.cs" ],
+    "compile": [
+        "..\\Shared\\*.cs"
+    ],
     "frameworks": {
         "dnx451": {
             "frameworkAssemblies": {
@@ -22,7 +24,7 @@
         },
         "dnxcore50": {
             "dependencies": {
-                "System.Threading": "4.0.11-beta-*"
+                "System.Threading": "4.0.11-beta-23409"
             }
         }
     }
