@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0-*",
+  "version": "1.0.0-rc1-final",
   "description": "Builds the pages for the Diagnostics projects. Runs in build.cmd.",
   "compilationOptions": {
     "warningsAsErrors": true,
@@ -10,21 +10,18 @@
     "url": "git://github.com/aspnet/diagnostics"
   },
   "dependencies": {
-    "Microsoft.AspNet.Razor": "4.0.0-*"
+    "Microsoft.AspNet.Razor": "4.0.0-rc1-final"
   },
-
   "frameworks": {
-    "dnx451": {
-    },
+    "dnx451": {},
     "dnxcore50": {
       "dependencies": {
-        "System.Console": "4.0.0-beta-*",
-        "System.Runtime": "4.0.21-*"
+        "System.Console": "4.0.0-beta-23516",
+        "System.Runtime": "4.0.21-beta-23516"
       }
     }
   },
-  
   "commands": {
-    "run" : "PageGenerator"
+    "run": "PageGenerator"
   }
 }

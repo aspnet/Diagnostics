@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0-*",
+  "version": "1.0.0-rc1-final",
   "description": "ASP.NET 5 Middleware for exception handling, exception display pages, and diagnostics information.",
   "compilationOptions": {
     "warningsAsErrors": true,
@@ -10,15 +10,15 @@
     "url": "git://github.com/aspnet/diagnostics"
   },
   "dependencies": {
-    "Microsoft.AspNet.Diagnostics.Abstractions": "1.0.0-*",
-    "Microsoft.AspNet.FileProviders.Physical": "1.0.0-*",
-    "Microsoft.AspNet.Http.Extensions": "1.0.0-*",
-    "Microsoft.AspNet.WebUtilities": "1.0.0-*",
-    "Microsoft.Extensions.Logging.Abstractions": "1.0.0-*",
-    "Microsoft.Extensions.OptionsModel": "1.0.0-*",
-    "Microsoft.Dnx.Compilation.Abstractions": "1.0.0-*",
-    "Microsoft.Extensions.WebEncoders.Core": "1.0.0-*",
-    "System.Diagnostics.DiagnosticSource": "4.0.0-beta-*"
+    "Microsoft.AspNet.Diagnostics.Abstractions": "1.0.0-rc1-final",
+    "Microsoft.AspNet.FileProviders.Physical": "1.0.0-rc1-final",
+    "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
+    "Microsoft.AspNet.WebUtilities": "1.0.0-rc1-final",
+    "Microsoft.Extensions.Logging.Abstractions": "1.0.0-rc1-final",
+    "Microsoft.Extensions.OptionsModel": "1.0.0-rc1-final",
+    "Microsoft.Dnx.Compilation.Abstractions": "1.0.0-rc1-final",
+    "Microsoft.Extensions.WebEncoders.Core": "1.0.0-rc1-final",
+    "System.Diagnostics.DiagnosticSource": "4.0.0-beta-23516"
   },
   "frameworks": {
     "net451": {
@@ -28,7 +28,7 @@
     },
     "dotnet5.4": {
       "dependencies": {
-        "System.Reflection.Extensions": "4.0.1-beta-*"
+        "System.Reflection.Extensions": "4.0.1-beta-23516"
       }
     }
   },
