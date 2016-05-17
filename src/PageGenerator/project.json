@@ -13,13 +13,13 @@
     }
   },
   "dependencies": {
-    "Microsoft.AspNetCore.Razor": "1.0.0-*"
+    "Microsoft.AspNetCore.Razor": "1.0.0-rc2-final"
   },
   "frameworks": {
     "netcoreapp1.0": {
       "dependencies": {
         "Microsoft.NETCore.App": {
-          "version": "1.0.0-*",
+          "version": "1.0.0-rc2-3002702",
           "type": "platform"
         }
       }

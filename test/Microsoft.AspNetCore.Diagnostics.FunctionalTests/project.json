@@ -1,13 +1,13 @@
 {
   "dependencies": {
     "dotnet-test-xunit": "1.0.0-*",
-    "Microsoft.NETCore.Platforms": "1.0.1-*",
+    "Microsoft.NETCore.Platforms": "1.0.1-rc2-24027",
     "DatabaseErrorPageSample": "1.0.0",
     "DeveloperExceptionPageSample": "1.0.0",
     "ElmPageSample": "1.0.0",
     "ExceptionHandlerSample": "1.0.0",
-    "Microsoft.AspNetCore.Server.Kestrel": "1.0.0-*",
-    "Microsoft.AspNetCore.TestHost": "1.0.0-*",
+    "Microsoft.AspNetCore.Server.Kestrel": "1.0.0-rc2-final",
+    "Microsoft.AspNetCore.TestHost": "1.0.0-rc2-final",
     "Microsoft.AspNetCore.Testing": "1.0.0-*",
     "MiddlewareAnalysisSample": "1.0.0",
     "RuntimeInfoPageSample": "1.0.0",
@@ -28,7 +28,7 @@
       ],
       "dependencies": {
         "Microsoft.NETCore.App": {
-          "version": "1.0.0-*",
+          "version": "1.0.0-rc2-3002702",
           "type": "platform"
         }
       }
