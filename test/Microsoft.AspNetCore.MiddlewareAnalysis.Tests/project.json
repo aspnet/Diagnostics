@@ -3,7 +3,7 @@
     "warningsAsErrors": false
   },
   "dependencies": {
-    "dotnet-test-xunit": "1.0.0-rc3-000000-00",
+    "dotnet-test-xunit": "1.0.0-rc3-000000-01",
     "Microsoft.AspNetCore.Diagnostics": "1.0.0",
     "Microsoft.AspNetCore.MiddlewareAnalysis": "1.0.0",
     "Microsoft.AspNetCore.TestHost": "1.0.0",
