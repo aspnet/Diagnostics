@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0-rtm-21431",
+  "version": "1.0.0",
   "description": "Builds the pages for the Diagnostics projects. Runs in build.cmd.",
   "buildOptions": {
     "warningsAsErrors": true,
