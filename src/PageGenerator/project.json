@@ -13,7 +13,7 @@
     }
   },
   "dependencies": {
-    "Microsoft.AspNetCore.Razor": "1.0.0"
+    "Microsoft.AspNetCore.Razor": "1.0.1"
   },
   "frameworks": {
     "netcoreapp1.0": {

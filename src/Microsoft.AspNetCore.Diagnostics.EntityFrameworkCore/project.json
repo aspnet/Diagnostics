@@ -25,8 +25,8 @@
       "type": "build",
       "version": "1.0.1"
     },
-    "Microsoft.AspNetCore.Http.Abstractions": "1.0.0",
-    "Microsoft.EntityFrameworkCore.Relational": "1.0.0"
+    "Microsoft.AspNetCore.Http.Abstractions": "1.0.1",
+    "Microsoft.EntityFrameworkCore.Relational": "1.0.2"
   },
   "frameworks": {
     "net451": {

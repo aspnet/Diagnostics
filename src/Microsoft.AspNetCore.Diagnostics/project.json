@@ -20,17 +20,17 @@
     ]
   },
   "dependencies": {
-    "Microsoft.AspNetCore.Diagnostics.Abstractions": "1.0.0",
+    "Microsoft.AspNetCore.Diagnostics.Abstractions": "1.0.1",
     "Microsoft.AspNetCore.DiagnosticsViewPage.Sources": {
       "type": "build",
       "version": "1.0.1"
     },
-    "Microsoft.AspNetCore.Hosting.Abstractions": "1.0.0",
-    "Microsoft.AspNetCore.Http.Extensions": "1.0.0",
-    "Microsoft.AspNetCore.WebUtilities": "1.0.0",
-    "Microsoft.Extensions.FileProviders.Physical": "1.0.0",
-    "Microsoft.Extensions.Logging.Abstractions": "1.0.0",
-    "Microsoft.Extensions.Options": "1.0.0",
+    "Microsoft.AspNetCore.Hosting.Abstractions": "1.0.1",
+    "Microsoft.AspNetCore.Http.Extensions": "1.0.1",
+    "Microsoft.AspNetCore.WebUtilities": "1.0.1",
+    "Microsoft.Extensions.FileProviders.Physical": "1.0.1",
+    "Microsoft.Extensions.Logging.Abstractions": "1.0.1",
+    "Microsoft.Extensions.Options": "1.0.1",
     "Microsoft.Extensions.StackTrace.Sources": {
       "type": "build",
       "version": "1.0.1"

@@ -2,9 +2,9 @@
   "dependencies": {
     "Microsoft.AspNetCore.Diagnostics": "1.0.1",
     "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "1.0.1",
-    "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0",
-    "Microsoft.AspNetCore.Server.Kestrel": "1.0.0",
-    "Microsoft.EntityFrameworkCore.SqlServer": "1.0.0",
+    "Microsoft.AspNetCore.Server.IISIntegration": "1.0.1",
+    "Microsoft.AspNetCore.Server.Kestrel": "1.0.2",
+    "Microsoft.EntityFrameworkCore.SqlServer": "1.0.2",
     "Microsoft.EntityFrameworkCore.Tools": {
       "version": "1.0.0-preview2-final",
       "type": "build"
