@@ -15,7 +15,7 @@
         "Microsoft.EntityFrameworkCore.Tools": {
           "version": "1.0.0-preview2-final",
           "type": "build"
-        },
+        }
       }
     },
     "netcoreapp1.0": {
@@ -25,7 +25,7 @@
           "type": "build"
         },
         "Microsoft.NETCore.App": {
-          "version": "1.0.0",
+          "version": "1.0.3-*",
           "type": "platform"
         }
       }
