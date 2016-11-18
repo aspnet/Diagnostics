@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0-*",
+  "version": "1.1.0",
   "description": "ASP.NET Core diagnostics middleware abstractions and feature interface definitions.",
   "packOptions": {
     "repository": {
@@ -22,7 +22,7 @@
   "frameworks": {
     "netstandard1.0": {
       "dependencies": {
-        "NETStandard.Library": "1.6.1-*"
+        "NETStandard.Library": "1.6.1"
       }
     }
   }
