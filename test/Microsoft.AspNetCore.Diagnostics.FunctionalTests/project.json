@@ -5,8 +5,8 @@
     "DeveloperExceptionPageSample": "1.0.0",
     "ElmPageSample": "1.0.0",
     "ExceptionHandlerSample": "1.0.0",
-    "Microsoft.AspNetCore.Server.Kestrel": "1.0.2",
-    "Microsoft.AspNetCore.TestHost": "1.0.1",
+    "Microsoft.AspNetCore.Server.Kestrel": "1.0.3",
+    "Microsoft.AspNetCore.TestHost": "1.0.2",
     "Microsoft.AspNetCore.Testing": "1.0.1",
     "MiddlewareAnalysisSample": "1.0.0",
     "StatusCodePagesSample": "1.0.0",
@@ -21,7 +21,7 @@
       ],
       "dependencies": {
         "Microsoft.NETCore.App": {
-          "version": "1.0.3",
+          "version": "1.0.4",
           "type": "platform"
         }
       }

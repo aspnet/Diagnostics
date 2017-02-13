@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ASP.NET Core middleware for exception handling, exception display pages, and diagnostics information. Includes developer exception page middleware, exception handler middleware, runtime info middleware, status code page middleware, and welcome page middleware",
   "buildOptions": {
     "warningsAsErrors": true,
@@ -20,17 +20,17 @@
     ]
   },
   "dependencies": {
-    "Microsoft.AspNetCore.Diagnostics.Abstractions": "1.0.1",
+    "Microsoft.AspNetCore.Diagnostics.Abstractions": "1.0.2",
     "Microsoft.AspNetCore.DiagnosticsViewPage.Sources": {
       "type": "build",
-      "version": "1.0.1"
+      "version": "1.0.2"
     },
-    "Microsoft.AspNetCore.Hosting.Abstractions": "1.0.1",
-    "Microsoft.AspNetCore.Http.Extensions": "1.0.1",
-    "Microsoft.AspNetCore.WebUtilities": "1.0.1",
+    "Microsoft.AspNetCore.Hosting.Abstractions": "1.0.2",
+    "Microsoft.AspNetCore.Http.Extensions": "1.0.2",
+    "Microsoft.AspNetCore.WebUtilities": "1.0.2",
     "Microsoft.Extensions.FileProviders.Physical": "1.0.1",
-    "Microsoft.Extensions.Logging.Abstractions": "1.0.1",
-    "Microsoft.Extensions.Options": "1.0.1",
+    "Microsoft.Extensions.Logging.Abstractions": "1.0.2",
+    "Microsoft.Extensions.Options": "1.0.2",
     "Microsoft.Extensions.StackTrace.Sources": {
       "type": "build",
       "version": "1.0.1"

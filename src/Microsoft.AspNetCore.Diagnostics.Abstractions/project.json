@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ASP.NET Core diagnostics middleware abstractions and feature interface definitions.",
   "packOptions": {
     "repository": {
