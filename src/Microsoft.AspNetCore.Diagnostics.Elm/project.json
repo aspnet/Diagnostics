@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "ASP.NET Core Error Logging Middleware (ELM) to capture and display request logs.",
   "buildOptions": {
     "keyFile": "../../tools/Key.snk",
@@ -22,11 +22,11 @@
   "dependencies": {
     "Microsoft.AspNetCore.DiagnosticsViewPage.Sources": {
       "type": "build",
-      "version": "1.1.0-rtm-22752"
+      "version": "1.1.1"
     },
-    "Microsoft.AspNetCore.Http.Abstractions": "1.1.0",
-    "Microsoft.Extensions.Logging.Abstractions": "1.1.0",
-    "Microsoft.Extensions.Options": "1.1.0",
+    "Microsoft.AspNetCore.Http.Abstractions": "1.1.1",
+    "Microsoft.Extensions.Logging.Abstractions": "1.1.1",
+    "Microsoft.Extensions.Options": "1.1.1",
     "Microsoft.Extensions.RazorViews.Sources": {
       "type": "build",
       "version": "1.1.0-rtm-22752"
@@ -34,7 +34,7 @@
     "NETStandard.Library": "1.6.1"
   },
   "tools": {
-    "RazorPageGenerator": "1.1.0-rtm-22752"
+    "RazorPageGenerator": "1.1.1"
   },
   "frameworks": {
     "net451": {
