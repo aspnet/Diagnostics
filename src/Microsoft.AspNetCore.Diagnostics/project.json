@@ -1,5 +1,5 @@
 {
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "ASP.NET Core middleware for exception handling, exception display pages, and diagnostics information. Includes developer exception page middleware, exception handler middleware, runtime info middleware, status code page middleware, and welcome page middleware",
   "buildOptions": {
     "warningsAsErrors": true,
@@ -20,39 +20,39 @@
     ]
   },
   "dependencies": {
-    "Microsoft.AspNetCore.Diagnostics.Abstractions": "1.1.1",
+    "Microsoft.AspNetCore.Diagnostics.Abstractions": "1.1.2",
     "Microsoft.AspNetCore.DiagnosticsViewPage.Sources": {
+      "type": "build",
+      "version": "1.1.2"
+    },
+    "Microsoft.AspNetCore.Hosting.Abstractions": "1.1.2",
+    "Microsoft.AspNetCore.Http.Extensions": "1.1.2",
+    "Microsoft.AspNetCore.WebUtilities": "1.1.2",
+    "Microsoft.Extensions.FileProviders.Physical": "1.1.1",
+    "Microsoft.Extensions.Logging.Abstractions": "1.1.2",
+    "Microsoft.Extensions.Options": "1.1.2",
+    "Microsoft.Extensions.RazorViews.Sources": {
       "type": "build",
       "version": "1.1.1"
     },
-    "Microsoft.AspNetCore.Hosting.Abstractions": "1.1.1",
-    "Microsoft.AspNetCore.Http.Extensions": "1.1.1",
-    "Microsoft.AspNetCore.WebUtilities": "1.1.1",
-    "Microsoft.Extensions.FileProviders.Physical": "1.1.0",
-    "Microsoft.Extensions.Logging.Abstractions": "1.1.1",
-    "Microsoft.Extensions.Options": "1.1.1",
-    "Microsoft.Extensions.RazorViews.Sources": {
-      "type": "build",
-      "version": "1.1.0-rtm-22752"
-    },
     "Microsoft.Extensions.StackTrace.Sources": {
       "type": "build",
-      "version": "1.1.0-rtm-22752"
+      "version": "1.1.1"
     },
     "Microsoft.Extensions.TaskCache.Sources": {
-      "version": "1.1.0-rtm-22752",
+      "version": "1.1.1",
       "type": "build"
     },
     "Microsoft.Extensions.TypeNameHelper.Sources": {
       "type": "build",
-      "version": "1.1.0-rtm-22752"
+      "version": "1.1.1"
     },
     "NETStandard.Library": "1.6.1",
     "System.Diagnostics.DiagnosticSource": "4.3.0",
     "System.Reflection.Metadata": "1.4.1"
   },
   "tools": {
-    "RazorPageGenerator": "1.1.1"
+    "RazorPageGenerator": "1.1.2"
   },
   "frameworks": {
     "net451": {},
