@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Builds the pages for the Diagnostics projects. Runs in build.cmd.",
   "buildOptions": {
     "warningsAsErrors": true,
@@ -13,13 +13,13 @@
     }
   },
   "dependencies": {
-    "Microsoft.AspNetCore.Razor": "1.0.2"
+    "Microsoft.AspNetCore.Razor": "1.0.3"
   },
   "frameworks": {
     "netcoreapp1.0": {
       "dependencies": {
         "Microsoft.NETCore.App": {
-          "version": "1.0.4",
+          "version": "1.0.5",
           "type": "platform"
         }
       }

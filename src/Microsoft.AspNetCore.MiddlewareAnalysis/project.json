@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ASP.NET Core middleware for analyzing middleware in the request pipeline with System.Diagnostics.DiagnosticSource.",
   "buildOptions": {
     "warningsAsErrors": true,
@@ -20,7 +20,7 @@
     ]
   },
   "dependencies": {
-    "Microsoft.AspNetCore.Hosting.Abstractions": "1.0.2",
+    "Microsoft.AspNetCore.Hosting.Abstractions": "1.0.3",
     "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.2",
     "System.Diagnostics.DiagnosticSource": "4.0.0"
   },
