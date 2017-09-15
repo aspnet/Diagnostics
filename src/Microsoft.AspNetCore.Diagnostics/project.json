@@ -52,7 +52,7 @@
     "System.Reflection.Metadata": "1.4.1"
   },
   "tools": {
-    "RazorPageGenerator": "1.1.2"
+    "RazorPageGenerator": "1.1.3"
   },
   "frameworks": {
     "net451": {},
