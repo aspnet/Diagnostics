@@ -14,4 +14,6 @@
     <XunitRunnerVisualStudioVersion>2.3.0-beta2-build1317</XunitRunnerVisualStudioVersion>
     <SystemReflectionMetadataVersion>1.5.0</SystemReflectionMetadataVersion>
   </PropertyGroup>
+
+  <Import Project="$(DotNetPackageVersionPropsPath)" Condition=" '$(DotNetPackageVersionPropsPath)' != '' " />
 </Project>
