@@ -17,4 +17,8 @@
     <ProjectReference Include="..\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Checks\" />
+  </ItemGroup>
+
 </Project>

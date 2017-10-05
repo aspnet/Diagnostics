@@ -15,14 +15,14 @@ namespace Microsoft.Extensions.DependencyInjection
         /// <remarks>
         /// This operation is idempotent - multiple invocations will still only result in a single
         /// <see cref="IHealthCheckService"/> instance in the <see cref="IServiceCollection"/>. It can be invoked
-        /// multiple times in order to get access to the <see cref="IHealthChecksBuilder"/> in multiple places.
+        /// multiple times in order to get access to the <see cref="IHealthCheckBuilder"/> in multiple places.
         /// </remarks>
         /// <param name="services">The <see cref="IServiceCollection"/> to add the <see cref="IHealthCheckService"/> to.</param>
-        /// <returns>An instance of <see cref="IHealthChecksBuilder"/> from which health checks can be registered.</returns>
-        public static IHealthChecksBuilder AddHealthChecks(this IServiceCollection services)
+        /// <returns>An instance of <see cref="IHealthCheckBuilder"/> from which health checks can be registered.</returns>
+        public static IHealthCheckBuilder AddHealthChecks(this IServiceCollection services)
         {
             services.TryAdd(ServiceDescriptor.Singleton<IHealthCheckService, HealthCheckService>());
-            return new HealthChecksBuilder(services); 
+            return new HealthCheckBuilder(services); 
         }
     }
 }

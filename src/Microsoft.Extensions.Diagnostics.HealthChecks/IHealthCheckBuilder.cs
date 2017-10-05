@@ -9,7 +9,7 @@ namespace Microsoft.Extensions.Diagnostics.HealthChecks
     /// This type wraps an <see cref="IServiceCollection"/> and provides a place for health check components to attach extension
     /// methods for registering themselves in the <see cref="IServiceCollection"/>.
     /// </remarks>
-    public interface IHealthChecksBuilder
+    public interface IHealthCheckBuilder
     {
         /// <summary>
         /// Gets the <see cref="IServiceCollection"/> into which <see cref="IHealthCheck"/> instances should be registered

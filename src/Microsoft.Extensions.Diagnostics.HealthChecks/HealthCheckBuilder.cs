@@ -2,11 +2,11 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Microsoft.Extensions.Diagnostics.HealthChecks
 {
-    internal class HealthChecksBuilder : IHealthChecksBuilder
+    internal class HealthCheckBuilder : IHealthCheckBuilder
     {
         public IServiceCollection Services { get; }
 
-        public HealthChecksBuilder(IServiceCollection services)
+        public HealthCheckBuilder(IServiceCollection services)
         {
             Services = services;
         }

@@ -17,6 +17,7 @@ namespace HealthChecksSample
                     builder.AddConsole();
                 })
                 .UseKestrel()
+                .UseIISIntegration()
                 .UseStartup<Startup>()
                 .Build();
     }

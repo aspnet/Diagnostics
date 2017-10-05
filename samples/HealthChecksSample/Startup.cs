@@ -1,3 +1,4 @@
+using System;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -11,13 +12,17 @@ namespace HealthChecksSample
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddHealthChecks();
+            services.AddHealthChecks()
+                .AddWorkingSetCheck(56786944)
+                .AddUrlCheck("http://www.bing.com");
+
+            services.AddSingleton<Microsoft.Extensions.Hosting.IHostedService, MemoryWasterService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            app.UseHealthChecks("/health");
+            app.UseHealthChecks("/health", cacheDuration: TimeSpan.FromSeconds(5));
 
             app.Run(async (context) =>
             {
