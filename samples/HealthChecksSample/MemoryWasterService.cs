@@ -30,8 +30,8 @@ namespace HealthChecksSample
             var buffers = new List<byte[]>();
             while(!token.IsCancellationRequested && Process.GetCurrentProcess().WorkingSet64 < MaxMemoryToWaste)
             {
-                await Task.Delay(5000);
-                buffers.Add(new byte[1024 * 1024]);
+                await Task.Delay(2500);
+                buffers.Add(new byte[1024 * 1024 * 1024]);
             }
         }
     }
