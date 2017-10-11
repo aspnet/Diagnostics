@@ -4,9 +4,9 @@
   },
   "dependencies": {
     "dotnet-test-xunit": "1.0.0-rc3-000000-01",
-    "Microsoft.AspNetCore.Diagnostics": "1.0.4",
-    "Microsoft.AspNetCore.MiddlewareAnalysis": "1.0.4",
-    "Microsoft.AspNetCore.TestHost": "1.0.4",
+    "Microsoft.AspNetCore.Diagnostics": "1.0.5",
+    "Microsoft.AspNetCore.MiddlewareAnalysis": "1.0.5",
+    "Microsoft.AspNetCore.TestHost": "1.0.5",
     "Microsoft.AspNetCore.Testing": "1.0.1",
     "Microsoft.Extensions.DependencyInjection": "1.0.2",
     "Microsoft.Extensions.DiagnosticAdapter": "1.0.2",
@@ -16,7 +16,7 @@
     "netcoreapp1.0": {
       "dependencies": {
         "Microsoft.NETCore.App": {
-          "version": "1.0.7",
+          "version": "1.0.8-servicing-005009-00",
           "type": "platform"
         }
       },

@@ -1,5 +1,5 @@
 {
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "ASP.NET Core middleware for Entity Framework Core error pages. Use this middleware to detect and diagnose errors with Entity Framework Core migrations.",
   "packOptions": {
     "repository": {
@@ -23,10 +23,10 @@
   "dependencies": {
     "Microsoft.AspNetCore.DiagnosticsViewPage.Sources": {
       "type": "build",
-      "version": "1.0.4"
+      "version": "1.0.5"
     },
-    "Microsoft.AspNetCore.Http.Abstractions": "1.0.3",
-    "Microsoft.EntityFrameworkCore.Relational": "1.0.5"
+    "Microsoft.AspNetCore.Http.Abstractions": "1.0.4",
+    "Microsoft.EntityFrameworkCore.Relational": "1.0.6"
   },
   "frameworks": {
     "net451": {
