@@ -34,4 +34,3 @@ launchSettings.json
 .testPublish/
 global.json
 *.g.targets
-korebuild-lock.txt
