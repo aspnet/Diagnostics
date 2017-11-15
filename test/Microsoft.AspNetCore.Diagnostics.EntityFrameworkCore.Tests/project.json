@@ -11,9 +11,9 @@
   },
   "dependencies": {
     "dotnet-test-xunit": "2.2.0-*",
-    "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "1.1.4",
+    "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "1.1.5",
     "Microsoft.AspNetCore.Testing": "1.1.1",
-    "Microsoft.EntityFrameworkCore.InMemory": "1.1.4",
+    "Microsoft.EntityFrameworkCore.InMemory": "1.1.5",
     "Moq": "4.6.36-*",
     "xunit": "2.2.0-*"
   },
