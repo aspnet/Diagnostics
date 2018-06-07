@@ -1,5 +1,5 @@
 {
-  "version": "1.1.5",
+  "version": "1.1.6",
   "shared": "*.cs",
   "dependencies": {
     "NETStandard.Library": "1.6.1"
